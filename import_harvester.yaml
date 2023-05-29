@@ -177,7 +177,7 @@ spec:
           - name: CATTLE_IS_RKE
             value: "false"
           - name: CATTLE_SERVER
-            value: "https://147.28.186.203"
+            value: "https://rancher-host-02"
           - name: CATTLE_CA_CHECKSUM
             value: ""
           - name: CATTLE_CLUSTER
