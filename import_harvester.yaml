@@ -63,12 +63,12 @@ roleRef:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: cattle-credentials-1ce77a9
+  name: cattle-credentials-fce6316
   namespace: cattle-system
 type: Opaque
 data:
   url: "aHR0cHM6Ly9yYW5jaGVyLWhvc3QtMDI="
-  token: "aHY5d3Zjanduejc5Yjg3NTk1bnd0NmRtenI4NXd4c2x3Z21tNjlnaHZxcXQ4azk4bng4bGJ2"
+  token: "YmJncm12eHY2c3FkczdnNThwampzOXM3eGx6amhremRnZ213ODVwdzhnNzJncnFrcHQyNndr"
   namespace: ""
 
 ---
@@ -200,7 +200,7 @@ spec:
       volumes:
       - name: cattle-credentials
         secret:
-          secretName: cattle-credentials-1ce77a9
+          secretName: cattle-credentials-fce6316
           defaultMode: 320
   strategy:
     type: RollingUpdate
